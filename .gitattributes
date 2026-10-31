@@ -1,0 +1,4 @@
+# O Biome formata com LF; sem isto o core.autocrlf do Windows faria o checkout em CRLF
+# e o `bun run lint` acusaria todos os arquivos num clone novo.
+* text=auto eol=lf
+*.ico binary
